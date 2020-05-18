@@ -20,7 +20,7 @@ function src {
 }
 
 function vimcnf {
-	rd /s ~\vimfiles\autoload
+	rd ~\vimfiles\autoload /s
 	md ~\vimfiles\autoload
 	$uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 	(New-Object Net.WebClient).DownloadFile(
