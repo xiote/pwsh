@@ -4,10 +4,9 @@
 # include lines in profile.ps1
 
 #curl https://raw.githubusercontent.com/xiote/pwsh/master/profile.ps1 -OutFile .\profile.ps1
-#. .\profile.ps1
 
 set-alias cat2 get-content
 
 function aliascheck {
-	Write-Host "Alias Check : Ok!3"
+	Write-Host "Alias Check : Ok!4"
 }
