@@ -30,7 +30,7 @@ function vimcnf {
 	  )
 	)
 	
-	rm ~\.vimrc
-	curl -L https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o ~\.vimrc
+	rm $home\.vimrc
+	curl https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o $home\.vimrc
 
 }
