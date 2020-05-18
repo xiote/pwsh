@@ -3,6 +3,7 @@
 
 # include lines in profile.ps1
 
+#rm .\profile.ps1
 #curl https://raw.githubusercontent.com/xiote/pwsh/master/profile.ps1 -o .\profile.ps1
 #. .\profile.ps1
 
@@ -13,6 +14,7 @@ function aliascheck {
 }
 
 function src {
+	rm .\profile.ps1
 	curl h://raw.githubusercontent.com/xiote/pwsh/master/profile.ps1 -o .\profile.ps1
 	. .\profile.ps1
 }
