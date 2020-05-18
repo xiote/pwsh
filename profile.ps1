@@ -20,8 +20,8 @@ function src {
 }
 
 function vimcnf {
-    rm -r ~/.vim
-    curl https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -fLo ~/.vim/autoload/plug.vim --create-dirs
-    rm ~/.vimrc
-    curl -L https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o ~/.vimrc
+    rm -r ~\.vim
+    curl https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim -fLo ~\.vim\autoload\plug.vim --create-dirs
+    rm ~\.vimrc
+    curl -L https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o ~\.vimrc
 }
