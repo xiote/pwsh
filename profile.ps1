@@ -20,7 +20,7 @@ function src {
 }
 
 function vimcnf {
-	rd ~\vimfiles\autoload /s
+	Get-ChildItem * -Recurse | Remove-Item
 	md ~\vimfiles\autoload
 	$uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 	(New-Object Net.WebClient).DownloadFile(
@@ -30,7 +30,7 @@ function vimcnf {
 	  )
 	)
 	
-	rm ~\.vimrc
+	Remove-Item ~\.vimrc
 	$uri = 'https://raw.githubusercontent.com/xiote/vim/master/.vimrc'
 	(New-Object Net.WebClient).DownloadFile(
 	  $uri,
