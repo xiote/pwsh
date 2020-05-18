@@ -30,12 +30,7 @@ function vimcnf {
 	  )
 	)
 	
-	Remove-Item ~\.vimrc
-	$uri = 'https://raw.githubusercontent.com/xiote/vim/master/.vimrc'
-	(New-Object Net.WebClient).DownloadFile(
-	  $uri,
-	  $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath(
-	    "~\.vimrc"
-	  )
-	)
+	rm ~\.vimrc
+	curl -L https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o ~\.vimrc
+
 }
