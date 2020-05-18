@@ -1,5 +1,5 @@
 # 프로파일 생성
-# http://gitlab.krei.co.kr:90/nextep/common/wikis/powershell/프로파일-생성
+# https://docs.microsoft.com/en-us/previous-versions//bb613488(v=vs.85)?redirectedfrom=MSDN
 
 # include lines in profile.ps1
 
