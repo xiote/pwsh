@@ -26,12 +26,4 @@ function vimcnf {
         
     rm ~/.vimrc
     curl -L https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o ~/.vimrc
-
-#    mkdir -p ~/.vim/pack/plugins/start
-
-#    git clone https://github.com/vimwiki/vimwiki.git ~/.vim/pack/plugins/start/vimwiki;
-#    git clone https://tpope.io/vim/fugitive.git ~/.vim/pack/plugins/start/fugitive;
-#    git clone https://github.com/xiote/link.vim.git ~/.vim/pack/plugins/start/link.vim;
-#    git clone https://github.com/vim-syntastic/syntastic.git ~/.vim/pack/plugins/start/syntastic
-#    git clone https://github.com/fatih/vim-go.git ~/.vim/pack/plugins/start/vim-go
 }
