@@ -1,5 +1,5 @@
 # 프로파일 생성
-# https://docs.microsoft.com/en-us/previous-versions//bb613488(v=vs.85)?redirectedfrom=MSDN
+# https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7
 
 # include lines in profile.ps1
 
