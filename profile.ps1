@@ -21,8 +21,7 @@ function src {
 
 function vimcnf {
     rm -r ~/.vim
-    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
         
     rm ~/.vimrc
     curl -L https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o ~/.vimrc
