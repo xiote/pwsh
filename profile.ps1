@@ -36,6 +36,6 @@ function vimcnf {
 
 function ahkcnf {
 	rm $home\main.ahk
-	curl https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o $home\main.ahk
+	curl https://raw.githubusercontent.com/xiote/autohotkey/master/main.ahk -o $home\main.ahk
 	autohotkey $home\main.ahk
 }
