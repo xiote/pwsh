@@ -32,5 +32,10 @@ function vimcnf {
 	
 	rm $home\.vimrc
 	curl https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o $home\.vimrc
+}
 
+function ahkcnf {
+	rm $home\main.ahk
+	curl https://raw.githubusercontent.com/xiote/vim/master/.vimrc -o $home\main.ahk
+	autohotkey $home\main.ahk
 }
