@@ -39,3 +39,7 @@ function ahkcnf {
 	curl https://raw.githubusercontent.com/xiote/autohotkey/master/main.ahk -o $home\main.ahk
 	autohotkey $home\main.ahk
 }
+
+function ahk {
+	autohotkey $home\github.com\xiote\autohotkey\main.ahk
+}
