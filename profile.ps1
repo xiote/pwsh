@@ -40,6 +40,6 @@ function ahkcnf {
 	autohotkey $home\main.ahk
 }
 
-function ahk {
+function autohk {
 	autohotkey $home\github.com\xiote\autohotkey\main.ahk
 }
